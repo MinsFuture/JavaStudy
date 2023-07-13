@@ -20,7 +20,7 @@ public class SmartPhoneExample {
 		myPhone.sendVoice("아~ 네, 반갑습니다.");
 		myPhone.hangUp();
 		
-		//SmartPhone의 메소드 호출
+		//자식 객체 SmartPhone의 메소드 호출
 		myPhone.setWifi(true);
 		myPhone.internet();
 	}
